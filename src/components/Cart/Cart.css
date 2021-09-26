@@ -1,0 +1,22 @@
+.cart{
+    margin: 0 20px;
+    text-align: left;
+    box-shadow: 0 0 5px 5px rgb(228, 228, 228);
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    color: gray;
+
+
+}
+.cart h1{
+    font-size: 22px;
+}
+.faCartArrowDown{
+    font-size: 30px;
+    color: rgb(0, 180, 0);
+}
+.price{
+    font-size: 22px;
+    color: rgb(0, 180, 0);
+}

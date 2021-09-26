@@ -1,0 +1,13 @@
+.teachers{
+    padding: 40px 0;
+}
+.container{
+    display: grid;
+    padding: 0 2%;
+    grid-template-columns: 80% 20%;
+}
+.teachers-card{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-gap: 20px;
+}

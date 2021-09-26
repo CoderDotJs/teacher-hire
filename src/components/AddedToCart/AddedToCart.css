@@ -1,0 +1,15 @@
+.overview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 5px gray;
+    border-radius: 2%;
+    margin: 20px auto;
+}
+.cart-img{
+    width: 50%;
+    border-radius: 2%;
+}
+.nameStyle{
+    margin: auto 5px;
+}
