@@ -6,15 +6,20 @@ import './Teachers.css';
 
 const Teachers = () => {
 
+    // using the state hook
+
     const [cards, setCards] = useState([]);
     const [cart, setCart] = useState([]);
 
-    
+            //using the useEffect hook to load json 
+
     useEffect( () => {
         fetch('./teachersData.json')
         .then(res => res.json())
         .then(data => setCards(data))
     }, [])
+
+        // making a function to handle add to cart
 
     const handleAddToCart = (user) =>{
         const newCart = [...cart, user];
@@ -29,6 +34,9 @@ const Teachers = () => {
             <br />
             <div className="container">
                 <div className="teachers-card">
+
+                    {/* This makes the card visible */}
+
                     {
                         cards.map( (card) => {
                             const {key} = card;
@@ -43,9 +51,11 @@ const Teachers = () => {
                         })
                     }
                 </div>
+
+                    {/* cart section  */}
+
                 <div className="cart-div">
                     <Cart cart={cart}></Cart>
-                    {/* <AddedToCart user={handleAddToCart}></AddedToCart> */}
                 </div>
             </div>
         </div>

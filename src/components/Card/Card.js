@@ -6,6 +6,9 @@ import AddedToCart from '../AddedToCart/AddedToCart';
 
 const Card = (props) => {
     const { name, image, address, country, cost} = props.data;
+
+    //Teacher card design which contains each teacher info
+
     return (
         <div className="card">
             <h1>{name}</h1>

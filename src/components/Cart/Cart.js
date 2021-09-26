@@ -14,6 +14,8 @@ const Cart = (props) => {
         total += price.cost;
     }
 
+        //This is used to add the card to the cart and calcualte the total and amount
+
     return (
         <div className="cart">
             <FontAwesomeIcon icon={faCartArrowDown} className="faCartArrowDown"/>

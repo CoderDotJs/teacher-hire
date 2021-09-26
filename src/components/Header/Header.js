@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './Header.css';
 
 const Header = () => {
+
+        // This is used to make header 
+
     return (
         <div className="header">
             <div id="header">
@@ -17,6 +20,9 @@ const Header = () => {
                  </nav>
                 </header>
             </div>
+
+                {/* Banner Section   */}
+
             <div className="banner">
                 <div id="banner">
                 <h1>Start recruiting great teachers</h1>
